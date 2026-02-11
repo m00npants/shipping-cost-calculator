@@ -37,4 +37,5 @@ public class Main {
         ShippingRequest heavyInternationalExpressRequest = new ShippingRequest(Destination.INTERNATIONAL, Speed.EXPRESS, 20.0);
         System.out.println("Shipping cost: " + shippingService.quote(heavyInternationalExpressRequest));
     }
+
 }
