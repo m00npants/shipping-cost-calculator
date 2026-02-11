@@ -12,7 +12,7 @@ import se.lexicon.service.ShippingService;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+     static void main() {
 
         // Manual object creation (composition root)
         List<ShippingCostCalculator> calculators = List.of(
